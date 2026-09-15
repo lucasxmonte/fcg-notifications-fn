@@ -17,7 +17,7 @@ public class DigestDiarioFunction
 
     // Executa todo dia às 08:00 UTC  →  "0 0 8 * * *"
     [Function("DigestDiario")]
-    public void Run([TimerTrigger("0 0 8 * * *")] TimerInfo timer)
+    public void Run([TimerTrigger("0 0 8 * * *", UseMonitor = false)] TimerInfo timer)
     {
         _logger.LogInformation(
             "📰 DigestDiario executado em {Timestamp} UTC. " +

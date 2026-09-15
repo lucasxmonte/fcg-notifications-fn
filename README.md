@@ -132,4 +132,5 @@ az functionapp deployment source config-zip \
 
 ---
 
-> **FIAP Pós-Tech — Software Architecture | Grupo 17 | Tech Challenge — Fase 3**
+> **FIAP Pós-Tech — Software Architecture | Tech Challenge — Fase 3**
+> - Lucas Monte Ferreri Castilho
